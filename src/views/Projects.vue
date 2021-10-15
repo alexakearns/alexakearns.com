@@ -1,10 +1,19 @@
 <template>
-  <h1>Projects</h1>
+  <div class="projects">
+    <h1>Projects</h1>
+    <AllProjects  />
+  </div>
 </template>
 
-<script>
-export default {
+// <script>
 
+import AllProjects from "@/components/AllProjects.vue";
+
+export default {
+  name: "Projects",
+  components: {
+    AllProjects,
+  },
 }
 </script>
 
