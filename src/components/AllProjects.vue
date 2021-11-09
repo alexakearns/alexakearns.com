@@ -2,9 +2,9 @@
   <div class="all-projects">
     <h1 class="all-projects__heading">My Projects</h1>
     <div class="all-projects__container">
-      <Project name="First" number="1" />
-      <Project name="Second" number="2"/>
-      <Project name="Third" number="3" />
+      <!-- <Project name="First" number="1" />
+      <Project name="Second" number="2" />
+      <Project name="Third" number="3" /> -->
       <div v-for="project in projectsData" v-bind:key="project.title">
         <Project :projectInfo="project" />
       </div>
@@ -19,18 +19,18 @@ import json from "../assets/ProjectDetails.json";
 export default {
   name: "AllProjects",
   components: {
-    Project, 
+    Project,
   },
   data() {
     return {
       projectsData: json,
-    }
+    };
   },
   mounted() {
-    console.log(this.projectsData)
-    console.log(this.projectsData[0].title)
-  }
-}
+    console.log(this.projectsData);
+    console.log(this.projectsData[0].title);
+  },
+};
 </script>
 
 <style>

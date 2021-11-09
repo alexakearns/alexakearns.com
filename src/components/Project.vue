@@ -1,8 +1,7 @@
 <template>
   <div class="individual-project">
-    <h2>{{ name }} {{ number }}</h2>
-    <!-- <h2>{{ projectInfo.title }}</h2> -->
-    <!-- <h3>{{ projectInfo.description }}</h3> -->
+    <h2>{{ projectInfo.title }}</h2>
+    <h3>{{ projectInfo.description }}</h3>
   </div>
 </template>
 
@@ -15,8 +14,8 @@ export default {
     projectInfo: Object,
   },
   mounted() {
-    console.log(this.projectInfo)
-  }
+    console.log(this.projectInfo);
+  },
 };
 </script>
 
