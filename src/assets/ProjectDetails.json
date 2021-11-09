@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Mission Ctrl",
+    "description": "Arcade style game to learn VS Code Shortcuts.",
+    "who": "Team project",
+    "why": "Makers Academy final project, 2 weeks",
+    "tech": ["React", "NodeJS", "Express", "MongoDB", "Jest", "Enzyme", "Mocha", "Chai"],
+    "tools": ["VS Code", "Trello", "Miro"],
+    "image": "/assets/Mission-ctrl.png",
+    "alt": "Mission Ctrl scorecard"
+  },
+  {
+    "title": "Tech Test - Bank",
+    "description": "Emulating banking transactions via a REPL.",
+    "who": "Individual project",
+    "why": "Week 10 Makers project interview prep tech test. Using TDD and clean, maintainable code",
+    "tech": ["Ruby", "RSpec"],
+    "tools": ["VS Code"],
+    "image": "/assets/Bank-test.png",
+    "alt": "bank test REPL"
+  },
+  {
+    "title": "Bla bla",
+    "description": "Arcade style game to learn VS Code Shortcuts.",
+    "who": "Team project",
+    "why": "Makers Academy final project, 2 weeks",
+    "tech": ["React", "NodeJS", "Express", "MongoDB", "Jest", "Enzyme", "Mocha", "Chai"],
+    "tools": ["VS Code", "Trello", "Miro"],
+    "image": "/assets/Mission-ctrl.png",
+    "alt": "Mission Ctrl scorecard"
+  }
+]

@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <h2>{{name}} {{number}}</h2>
+  <div class="individual-project">
+    <h2>{{ name }} {{ number }}</h2>
+    <!-- <h2>{{ projectInfo.title }}</h2> -->
+    <!-- <h3>{{ projectInfo.description }}</h3> -->
   </div>
 </template>
 
@@ -9,11 +11,20 @@ export default {
   name: "Project",
   props: {
     name: String,
-    number: Number,
+    number: String,
+    projectInfo: Object,
+  },
+  mounted() {
+    console.log(this.projectInfo)
   }
-}
+};
 </script>
 
 <style>
-
+.individual-project {
+  border: red 5px solid;
+  margin: 15px;
+  width: 300px;
+  background: #eaeaeb;
+}
 </style>
