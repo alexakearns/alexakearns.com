@@ -1,10 +1,14 @@
 <template>
   <div class="social">
     <h3 class="social__links">
-      <a href="https://github.com/alexakearns">Github</a>
+      <a href="https://github.com/alexakearns" target="_blank">
+        <img src="@/assets/images/github.png" alt="linkedin" class="social__links-icons">
+      </a>
     </h3>
     <h3 class="social__links">
-      <a href="https://www.linkedin.com/in/alexa-kearns/">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/alexa-kearns/" target="_blank">
+        <img src="@/assets/images/linkedin.png" alt="linkedin" class="social__links-icons">
+      </a>
     </h3>
   </div>
 </template>
@@ -21,14 +25,14 @@ export default {
   justify-content: center;
 }
 .social__links {
-  background: #7be0aa;
-  border: 2px solid navy;
   border-radius: 10px;
   margin: 50px;
   padding: 20px;
 }
+.social__links-icons {
+  height: 70px;
+}
 .social__links:hover {
-  background: #ff99a3;
-  border-radius: 50%;
+  transform: scale(1.1);
 }
 </style>
