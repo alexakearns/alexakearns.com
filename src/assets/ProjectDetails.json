@@ -20,13 +20,25 @@
     "alt": "bank test REPL"
   },
   {
-    "title": "Bla bla",
-    "description": "Arcade style game to learn VS Code Shortcuts.",
-    "who": "Team project",
-    "why": "Makers Academy final project, 2 weeks",
-    "tech": ["React", "NodeJS", "Express", "MongoDB", "Jest", "Enzyme", "Mocha", "Chai"],
-    "tools": ["VS Code", "Trello", "Miro"],
-    "image": "/assets/Mission-ctrl.png",
-    "alt": "Mission Ctrl scorecard"
+    "title": "Rock Paper Scissors",
+    "description": "Decide who wins, make the right choice",
+    "who": "Individual project",
+    "why": "Making a fun game",
+    "tech": ["Javascript", "CSS", "HTML", "ESLint"],
+    "tools": ["VS Code"],
+    "image": "/assets/Rock-Paper-Scissors.png",
+    "alt": "Rock Paper Scissors",
+    "url": "https://r-p-s.surge.sh/"
+  },
+  {
+    "title": "Higher or Lower",
+    "description": "Higher or Lower card game using Deck of Cards API",
+    "who": "Individual project",
+    "why": "Integrating an API in the browser",
+    "tech": ["Javascript", "CSS", "HTML", "ESLint"],
+    "tools": ["VS Code"],
+    "image": "/assets/Higher-Lower.png",
+    "alt": "Higher Lower",
+    "url": "https://higher-lower-ak.surge.sh/"
   }
 ]
