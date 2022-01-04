@@ -17,7 +17,7 @@ body {
 }
 
 #app {
-  background-image: url(assets/portfolio-background_2.jpg);
+  background-image: url(assets/images/portfolio-background_2.jpg);
   background-position: center;
   background-size: cover;
   color: #2c3e50;
